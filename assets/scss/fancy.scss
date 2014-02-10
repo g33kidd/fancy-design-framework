@@ -1,0 +1,7 @@
+@import "fancy/default_settings";
+@import "settings";
+
+@import "fancy/grid/adaptive",
+		"fancy/grid/responsive",
+		"fancy/grid/static";
+@import "fancy/helpers/classes";

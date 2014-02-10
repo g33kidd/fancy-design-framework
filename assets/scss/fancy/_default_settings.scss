@@ -1,0 +1,34 @@
+////////////////////////////////////////
+// Layout and Grid Settings. Very fancy.
+$grid-columns: 				12;				// 1 to 12
+$grid-width: 				960px; 			// px|%
+$grid-position: 			center; 		// center/auto|left|right
+$grid-gutter: 				5px; 			// px|%
+$grid-type: 				adaptive; 		// adaptive|responsive|static
+
+//////////////////////////
+// Adaptive Grid Settings
+
+
+/////////////////////////////////////////
+// Color Settings... because... we can.
+// default colors are from a flat color
+// palette for a clean initial design.
+$color-blue: 				#2980B9;
+$color-green: 				#27AE60;
+$color-red: 				#C0392B;
+$color-orange: 				#E67E22;
+$color-yellow: 				#F1C40F;
+$color-purple: 				#8E44AD;
+$color-darkblue: 			#2C3E50;
+$color-light-purple: 		#9B59B6;
+$color-light-blue: 			#3498DB;
+$color-light-darkblue: 		#34495E;
+$color-dark-darkblue: 		#22313f;
+$color-dark-green: 			#16A085;
+
+
+/////////////////////////////////////////
+// Class Names... for more customization.
+$class_container: 			'container';
+$class_grid-column: 		'col';
