@@ -1,7 +1,8 @@
 @import "fancy/default_settings";
 @import "settings";
+@import "fancy/extras/mixins";
 
-@import "fancy/grid/adaptive",
-		"fancy/grid/responsive",
-		"fancy/grid/static";
-@import "fancy/helpers/classes";
+
+@import "fancy/grid/grid";
+
+@import "fancy/components/components";

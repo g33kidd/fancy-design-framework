@@ -1,13 +1,18 @@
 ////////////////////////////////////////
 // Layout and Grid Settings. Very fancy.
 $grid-columns: 				12;				// 1 to 12
+/// adaptive must use px
 $grid-width: 				960px; 			// px|%
 $grid-position: 			center; 		// center/auto|left|right
 $grid-gutter: 				5px; 			// px|%
 $grid-type: 				adaptive; 		// adaptive|responsive|static
+$grid-display: 				true;
+$grid-display-color: 		rgba(50, 200, 100, 0.5);
+
 
 //////////////////////////
 // Adaptive Grid Settings
+$grid-breakpoints: ();
 
 
 /////////////////////////////////////////

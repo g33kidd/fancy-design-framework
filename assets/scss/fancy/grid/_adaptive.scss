@@ -4,3 +4,38 @@
 	width:$grid-width;
 	margin:0 auto;
 }
+
+.row {
+	margin-bottom:5px;
+	@include clearfix();
+}
+
+@mixin col($column, $push:0) {
+	width: (($grid-width / $grid-columns) * $column) - $grid-gutter;
+}
+
+@mixin container() {
+	width: $grid-width;
+}
+
+@for $i from 1 through $grid-columns {
+	.row {
+		.#{$class_grid-column}#{$i} {
+			@include col($i);
+			float:left;
+			margin-right:$grid-gutter;
+
+			@if($i == 12) {
+				margin-right:0;
+			}
+			@if($grid-display == true) {
+				background-color:$grid-display-color;
+			}
+			@include clearfix();
+			&:last-child {
+				margin-right:0;
+			}
+		}
+	}
+
+}
